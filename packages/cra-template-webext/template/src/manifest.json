@@ -1,0 +1,10 @@
+{
+	"manifest_version": 2,
+
+	"name": "Create React WebExt",
+
+	"icons": {
+		"48": "icons/logo48.png",
+		"96": "icons/logo96.png"
+	}
+}

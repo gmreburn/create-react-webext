@@ -1,0 +1,9 @@
+{
+	"package": {
+		"scripts": {
+			"start": "react-webext-scripts start:firefox",
+			"build": "react-webext-scripts build",
+			"eject": "react-webext-scripts eject"
+		}
+	}
+}

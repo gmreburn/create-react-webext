@@ -1,0 +1,28 @@
+{
+	"name": "cra-template-webext",
+	"version": "0.0.1",
+	"keywords": [
+		"react",
+		"create-react-app",
+		"create-react-webext",
+		"template",
+		"webext"
+	],
+	"description": "The web extension template for Create React App.",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gmreburn/create-react-webext.git",
+		"directory": "packages/cra-template-webext"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=14"
+	},
+	"bugs": {
+		"url": "https://github.com/gmreburn/create-react-webext/issues"
+	},
+	"files": [
+		"template",
+		"template.json"
+	]
+}
