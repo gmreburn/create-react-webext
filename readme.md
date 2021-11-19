@@ -4,10 +4,10 @@
 
 **WARNING - This concept is under development and not ready for public use. Please contact me if you are interested in contributing to this project.**
 
-Create React web extensions with no build configuration.
+Create React browser extensions with no build configuration.
 
-- [Creating A Web Extension](#creating-a-webext) – How to create a new web extension.
-- [React Web Extension User Guide](https://gmreburn.github.io/create-react-webext/docs/getting-started/intro/) - How to develop web extensions bootstrapped with Create React WebExt.
+- [Creating A Browser Extension](#creating-a-webext) – How to create a new browser extension.
+- [Create React WebExt User Guide](https://gmreburn.github.io/create-react-webext/docs/getting-started/intro/) - How to develop browser extensions bootstrapped with Create React WebExt.
 
 Create React WebExt works on macOS, Windows, and Linux.<br>
 If something doesn’t work, please [file an issue](https://github.com/gmreburn/create-react-webext/issues/new).<br>
@@ -25,7 +25,7 @@ If you've previously installed `create-react-app` globally via `npm install -g c
 
 _([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f))_
 
-Your web extension will open in a new web browser window.<br>
+Your browser extension will open in a new web browser window.<br>
 When you’re ready to deploy to production, create a package with `npm run build`.
 
 <p align='center'>
@@ -39,11 +39,11 @@ They are preconfigured and hidden so that you can focus on the code.
 
 Create a project, and you’re good to go.
 
-## Creating a web extension
+## Creating a browser extension
 
 **You’ll need to have Node 14.0.0 or later version on your local development machine**. We recommend using the latest LTS version. You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to switch Node versions between different projects.
 
-To create a new web extension, you may choose one of the following methods:
+To create a new browser extension, you may choose one of the following methods:
 
 ### npx
 
@@ -89,7 +89,7 @@ my-app
 	└── manifest.json
 ```
 
-No configuration or complicated folder structures, only the files you need to build your web extension.<br>
+No configuration or complicated folder structures, only the files you need to build your browser extension.<br>
 Once the installation is done, you can open your project folder:
 
 ```sh
@@ -100,7 +100,7 @@ Inside the newly created project, you can run some built-in commands:
 
 ### `npm start` or `yarn start`
 
-Runs the web extension in development mode.<br>
+Runs the browser extension in development mode.<br>
 Opens a new web browser window with the extension loaded.
 
 The extension will automatically reload if you make changes to the code.<br>
@@ -145,7 +145,7 @@ Please refer to the [User Guide](https://gmreburn.github.io/create-react-webext/
 <!--
 ## What’s Included?
 
-Your environment will have everything you need to build a modern single-page React web extension:
+Your environment will have everything you need to build a modern single-page React browser extension:
 
 - React, JSX, ES6, TypeScript and Flow syntax support.
 - Language extras beyond ES6 like the object spread operator.
