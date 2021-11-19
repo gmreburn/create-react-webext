@@ -8,13 +8,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
 	title: "Create React WebExt",
 	tagline: "Set up a modern web extension by running one command. ",
-	url: "https://gmreburn.github.io/create-react-webext",
-	baseUrl: "/",
+	url: "https://gmreburn.github.io",
+	baseUrl: "/create-react-webext/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/favicon.ico",
 	organizationName: "gmreburn", // Usually your GitHub org/user name.
 	projectName: "create-react-webext", // Usually your repo name.
+	// deploymentBranch: "main",
+	trailingSlash: true,
 
 	presets: [
 		[
@@ -106,7 +108,7 @@ const config = {
 					// 	],
 					// },
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} Create React WebExt. Built with Docusaurus.`,
 			},
 			prism: {
 				theme: lightCodeTheme,
