@@ -1,6 +1,6 @@
 # Getting Started with Create React WebExt
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) for development of a web extension.
+This project was bootstrapped with an **experimental** [Create React App](https://github.com/facebook/create-react-app) template for development of a web extension.
 
 ## Available Scripts
 
