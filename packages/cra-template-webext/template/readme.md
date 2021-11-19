@@ -1,3 +1,5 @@
+**WARNING - This concept is under development and not ready for public use. Please contact me if you are interested in contributing to this project.**
+
 # Getting Started with Create React WebExt
 
 This project was bootstrapped with an **experimental** [Create React App](https://github.com/facebook/create-react-app) template for development of a web extension.
