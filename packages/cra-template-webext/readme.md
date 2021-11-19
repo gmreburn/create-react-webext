@@ -1,6 +1,8 @@
 # cra-template-webext
 
-This is the WebExtension template to create browser extensions with [Create React App](https://github.com/facebook/create-react-app).
+**_Experimental_**
+
+This will be the WebExtension template to create browser extensions with [Create React App](https://github.com/facebook/create-react-app). Contributions and feedback welcomed.
 
 To use this template, add --template webext when creating a new app.
 
