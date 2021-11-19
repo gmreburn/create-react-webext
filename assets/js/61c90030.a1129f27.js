@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusarus=self.webpackChunkdocusarus||[]).push([[224],{8811:function(e){e.exports=JSON.parse('{"allTagsPath":"/create-react-webext/blog/tags","slug":"/create-react-webext/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/create-react-webext/blog/tags/docusaurus"}')}}]);
