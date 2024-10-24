@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusarus=self.webpackChunkdocusarus||[]).push([[526],{4211:function(e){e.exports=JSON.parse('{"allTagsPath":"/create-react-webext/blog/tags","slug":"/create-react-webext/blog/tags/hello","name":"hello","count":2,"permalink":"/create-react-webext/blog/tags/hello"}')}}]);

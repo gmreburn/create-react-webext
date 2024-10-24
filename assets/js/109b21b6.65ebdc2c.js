@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusarus=self.webpackChunkdocusarus||[]).push([[865],{2816:function(e){e.exports=JSON.parse('{"allTagsPath":"/create-react-webext/blog/tags","slug":"/create-react-webext/blog/tags/facebook","name":"facebook","count":1,"permalink":"/create-react-webext/blog/tags/facebook"}')}}]);

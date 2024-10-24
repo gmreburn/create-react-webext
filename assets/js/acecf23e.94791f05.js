@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusarus=self.webpackChunkdocusarus||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/create-react-webext/blog","blogTitle":"Blog","authorsListPath":"/create-react-webext/blog/authors"}')}}]);
