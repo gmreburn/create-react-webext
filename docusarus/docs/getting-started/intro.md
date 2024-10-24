@@ -42,6 +42,12 @@ Create a project, and you’re good to go.
 
 To create a new web extension, you may choose one of the following methods:
 
+### pnpm
+
+pnpm dlx create-react-app my-app --template webext
+
+###
+
 ### npx
 
 ```sh
@@ -71,6 +77,8 @@ _`yarn create` is available in Yarn 0.25+_
 When you create a new web extension, the CLI will use [npm](https://docs.npmjs.com) or [Yarn](https://yarnpkg.com/) to install dependencies, depending on which tool you use to run `create-react-app`. For example:
 
 ```sh
+# Run this to use pnpm
+pnpm create react-app my-app --template webext
 # Run this to use npm
 npx create-react-app my-app --template webext
 # Or run this to use yarn
