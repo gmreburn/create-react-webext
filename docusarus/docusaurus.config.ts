@@ -1,10 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const { themes } = require("prism-react-renderer");
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
-/** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: "Create React WebExt",
 	tagline: "Set up a modern web extension by running one command. ",
@@ -22,7 +22,7 @@ const config = {
 		[
 			"@docusaurus/preset-classic",
 			/** @type {import('@docusaurus/preset-classic').Options} */
-			({
+			{
 				docs: {
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
@@ -38,13 +38,13 @@ const config = {
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
 				},
-			}),
+			},
 		],
 	],
 
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-		({
+		{
 			navbar: {
 				title: "Create React WebExt",
 				logo: {
@@ -115,7 +115,7 @@ const config = {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
 			},
-		}),
+		},
 };
 
 module.exports = config;
